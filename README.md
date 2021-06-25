@@ -79,7 +79,8 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-Images/docker_ps.png
+
+![Alt text](Images/docker_ps.png?raw=true)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -118,6 +119,7 @@ How do I specify which machine to install the ELK server on versus which to inst
 
 You need to indicate the target group noted in the hosts file. 
 Example: in the host file add the following: 
+
 [webservers]
 10.0.0.5
 10.0.0.6
@@ -126,6 +128,7 @@ Example: in the host file add the following:
 10.1.0.5 
 
 The playbook should then indicate the target as follows: 
+
 Hosts: webservers 
 OR
 Hosts: elk 
