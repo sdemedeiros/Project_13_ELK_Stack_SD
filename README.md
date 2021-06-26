@@ -51,19 +51,19 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the Jump Box Provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
-99.232.222.84
+MyPublicIP
 
 Machines within the network can only be accessed by SSH from the Jump Box .
 
 
 A summary of the access policies in place can be found in the table below.
-| Name       | Publicly Accessible? | Allowed IP Addresses |
-|------------|----------------------|----------------------|
-| Jump Box   | No                   | 99.232.222.84        |
-| ELK-Server | No                   | 99.232.222.84        |
-| Web-1      | No                   | 99.232.222.84        |
-| Web-2      | No                   | 99.232.222.84        |
-| Web-3      | No                   | 99.232.222.84        |
+| Name       | Publicly Accessible?  | IP Address |
+|------------|-----------------------|------------|
+| Jump Box   | No                    | MyPublicIP |
+| ELK-Server | No                    | MyPublicIP |
+| Web-1      | No                    | MyPublicIP |
+| Web-2      | No                    | MyPublicIP |
+| Web-3      | No                    | MyPublicIP |
 
 ### Elk Configuration
 
